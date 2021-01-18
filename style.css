@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Uttlities */
+
 *
 {
     padding: 0;
@@ -17,7 +19,7 @@ a
 }
 ul
 {
-    
+    list-style-type: none;
 }
 .flex
 {
@@ -25,4 +27,66 @@ ul
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
+}
+p
+{
+    margin: 10px 0;
+}
+.container
+{
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.btn
+{
+    border-radius: 50px;
+    padding: 15px 52px;
+    font-size: 26px;
+}
+ .btn-primary
+{
+    background: transparent;
+    border: 2px solid  #F1C700;
+    color: #F1C700;
+}
+.btn-secondary
+{
+    background:#F1C700;
+    color: #fff;
+}
+
+
+/* *Navbar */
+.navbar
+{
+    height: 130px;
+}
+.navbar ul
+{
+    padding-top: 45px;
+    overflow: visible;
+    display: flex;
+}
+.navbar h1
+{
+    font-size: 48px;
+    position: relative;
+    top: 38px;
+    left: 63px;
+}
+.navbar li
+{
+    padding: 0 32px;
+}
+.navbar .container
+{
+    overflow: hidden;
+}
+.navbar img
+{
+    position: absolute;
+    top: -160px;
+    left: -120px;
+    z-index: -1;
 }
