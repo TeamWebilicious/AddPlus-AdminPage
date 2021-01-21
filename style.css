@@ -74,7 +74,7 @@ ul
 {
     font-weight: 800;
     padding-top: 10px;
-    font-size: calc(24px + 1.5vw);
+    font-size: calc(34px + 1.5vw);
 }
 .nav-link
 {
@@ -83,11 +83,11 @@ ul
 .navbar img
 {
     position: absolute;
-    z-index: -100;
-    width: 350px;
-    top: -160px;
-    left: -120px;
-    opacity: 0.8;
+    z-index: -900000000;
+    width: 400px;
+    top: -140px;
+    left: -150px;
+    opacity: 1;
 }
 
 
