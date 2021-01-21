@@ -29,6 +29,10 @@ ul
     justify-content: space-between;
     flex-direction: row;
 }
+.f2,.f4
+{
+    flex-direction: row-reverse;
+}
 .container
 {
     max-width: 1300px;
@@ -94,56 +98,58 @@ ul
     opacity: 1;
 }
 
-/* *Section-1 */
-.section1
+/* *Section */
+.section
 {
     justify-content: center;
     align-items: center;
     margin-top: 4em;
     padding-top: 4rem;
 }
-.section1 .text-area h1
+.section .text-area h1
 {
     font-size: calc(40px + 1vw);
     font-weight: 500;
 }
-.section1 .text-area h6
+.section .text-area h6
 {
     font-size: 18px;
     font-weight: 400;
 }
-.section1 .text-area p
+.section .text-area p
 {
     padding: 2rem 0;
     font-size: 24px;
     font-weight: 400;
 }
-.section1 .text-area
+.section .text-area
 {
     max-width: 600px;
 }
-.section1-img
+.section-img
 {
     padding: 10px 0;
 }
-.section1 img
+.section img
 {
     height: 400px;
     width: 380px;
 }
-.section1 nav 
+.section nav 
 {
     padding-top: 80px;
 }
-.section1 nav ul
+.section nav ul
 {
     display: flex;
     justify-content: space-around;
 }
-.section1 nav li
+.section nav li
 {
     font-size: 28px;
 }
+
+/* Mobile Phone */
 @media(max-width:500px)
 {
     .container
@@ -157,27 +163,28 @@ ul
         display: flex;
         justify-content: space-evenly;
     }
-    .section1 
+    .section
     {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .section1 .text-area
+    .section .text-area
     {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
     }
-    .section1 nav li
+    .section nav li
     {
         font-size: 16px;
     }
-    .section1 nav ul
+    .section nav ul
     {
         justify-content: center;
     }
+    
 
 
 }
