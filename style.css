@@ -149,7 +149,7 @@ ul
 .design-r
 {
     position: absolute;
-    right: -100px;
+    right: -120px;
     z-index: -1;
 }
 .design-l
@@ -203,7 +203,10 @@ ul
     }
     .section1-img img
     {
-    height: 380px;
-    width: 320px;
+    width: 380px;
+    }
+    section .design-l,.design-r
+    {
+        display: none;
     }
 }
