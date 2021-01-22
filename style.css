@@ -12,6 +12,7 @@ body
 {
     font-family: "Poppins", sans-serif;
     color: #000000;
+    overflow-x: hidden;
 }
 a
 {
@@ -149,10 +150,26 @@ ul
 {
     font-size: 28px;
 }
-
+.design-r
+{
+    position: absolute;
+    right: -100px;
+    z-index: -1;
+}
+.design-l
+{
+    position: absolute;
+    z-index: -1;
+    left: -100px;    
+}
+.section1-img
+{
+    padding: 20px;
+}
 /* Mobile Phone */
 @media(max-width:500px)
 {
+
     .container
     {
         padding: 10px 1rem;
