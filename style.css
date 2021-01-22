@@ -98,6 +98,7 @@ ul
     left: -150px;
     opacity: 1;
 }
+
 /* *Section */
 .section
 {
@@ -148,26 +149,6 @@ ul
 {
     font-size: 28px;
 }
-.section .design-r
-{
-    position: absolute;
-    width: 600px;
-    z-index: -1;
-    right: -250px;    
-}
-.section .design-l
-{
-    position: absolute;
-    width: 600px;
-    z-index: -1;
-    left: -250px;    
-}
-.section1-img
-{
-    padding: 20px;
-}
-
-
 
 /* Mobile Phone */
 @media(max-width:500px)
