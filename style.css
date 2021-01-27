@@ -163,6 +163,23 @@ ul
     padding: 20px;
 }
 
+/* *Footer */
+footer
+{
+    background:#FCD107;
+    height: 540px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+footer .container
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 /* Mobile Phone */
 @media(max-width:500px)
 {
