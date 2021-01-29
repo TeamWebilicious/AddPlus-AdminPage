@@ -99,7 +99,15 @@ ul
     left: -150px;
     opacity: 1;
 }
-
+.nav-2 h1
+{
+    font-size: calc(40px + 1vw);
+    font-weight: 500;
+}
+.nav-2 h1
+{
+    max-width: 800px;
+}
 /* *Section */
 .section
 {
@@ -161,6 +169,10 @@ ul
 .section1-img
 {
     padding: 20px;
+}
+.sec5 ul
+{
+    display: flex;
 }
 
 /* *Footer */
@@ -225,5 +237,19 @@ footer .container
     section .design-l,.design-r
     {
         display: none;
+    }
+    .sec5 .container
+    {
+        flex-wrap: wrap;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav-2
+    {
+        text-align: center;
     }
 }
