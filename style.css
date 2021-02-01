@@ -195,7 +195,7 @@ ul
     padding: 60px;
     height: 500px;
     width: 600px;
-    background: rgba(252, 209, 7, 0.95);
+    background: rgba(252, 209, 7, 0.95)  90%;
     transform: matrix(1, 0, -0.1, 1, 0, 0);
     align-items: center;
     display: flex;
@@ -267,7 +267,20 @@ ul
 {
     background: #FFE463;
 }
-
+/* *sec 8 */
+.sec8
+{
+    margin-top: 150px;
+}
+.sec8 img
+{
+    height: 800px;
+    width: 600px;
+}
+.sec8 .text-area
+{
+    margin-top: 80px;
+}
 /* *Footer */
 footer
 {
