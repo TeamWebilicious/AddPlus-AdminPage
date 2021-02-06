@@ -279,7 +279,39 @@ ul
 }
 .sec8 .text-area
 {
+    margin: 40px;
     margin-top: 80px;
+}
+
+.sec9 
+{
+    margin: 20px;
+    border-radius: 20px;
+    background: #E8E8E8;
+    height: 900px;
+}
+
+.sec9 img
+{
+    padding: 50px;
+    width: 800px;
+    height: 700px;
+}
+
+.sec9 option
+{
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+.sec9 h1
+{
+    font-size: 150px;
+    padding: 40px;
+}
+.sec9 .flex
+{
+    justify-content: space-between;
 }
 /* *Footer */
 footer
