@@ -67,6 +67,8 @@ ul
     background: #323232;
 }
 /* *style */
+
+/* *navbar  */
  .navbar
 { 
     height: 100px;
@@ -170,13 +172,40 @@ ul
 {
     padding: 20px;
 }
+/* *section 5 */
 .sec5 ul
 {
     display: flex;
 }
+/* *section 6 */
 .sec6
 {
     padding-top:100px;
+}
+.sec6 .card
+{
+    height: 500px;
+    width: 320px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    transform: matrix(0.99, 0, -0.18, 1, 0, 0);
+}
+.sec6 .card img
+{
+    width: 160px;
+    height: 160px;
+}
+.sec6 .card a
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border-bottom: 2px #fff solid;
+}
+.sec6 .light
+{
+    background: #FFE463;
 }
 /* *Sec 7 */
 .sec7
@@ -226,27 +255,7 @@ ul
     display: flex;
 }
 
-.sec6 .card
-{
-    height: 500px;
-    width: 320px;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    transform: matrix(0.99, 0, -0.18, 1, 0, 0);
-}
-.sec6 .card img
-{
-    width: 160px;
-    height: 160px;
-}
-.sec6 .card a
-{
-    font-size: 18px;
-    font-weight: 400;
-    color: #fff;
-    border-bottom: 2px #fff solid;
-}
+
 .card h2
 {
     color: #000;
@@ -263,10 +272,6 @@ ul
 {
     background: #FCD107;
 }
-.sec6 .light
-{
-    background: #FFE463;
-}
 /* *sec 8 */
 .sec8
 {
@@ -282,7 +287,7 @@ ul
     margin: 40px;
     margin-top: 80px;
 }
-
+/* section 9 */
 .sec9 
 {
     margin: 20px;
@@ -323,6 +328,7 @@ ul
 {
     justify-content: space-between;
 }
+
 /* *Footer */
 footer
 {
@@ -332,12 +338,7 @@ footer
     display: flex;
     align-items: center;
 }
-footer .container
-{
-    width: 100vw;
-    display: flex;
-    justify-content: space-evenly;
-}
+
 
 /* Mobile Phone */
 @media(max-width:500px)
