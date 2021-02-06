@@ -290,19 +290,29 @@ ul
     background: #E8E8E8;
     height: 900px;
 }
-
-.sec9 img
-{
-    padding: 50px;
-    width: 800px;
-    height: 700px;
-}
-
 .sec9 option
 {
+    margin: 20px;
     background: #fff;
     padding: 20px;
     border-radius: 15px;
+}
+.sec9 img
+{
+    margin-left: 0;
+    width: 620px;
+    height: 900px;
+}
+.sec9 i
+{
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+    opacity: 80%;
+    margin-left: 40px;
+    font-size: 35px;
+    height: 25px;
+    width: 28px;
 }
 .sec9 h1
 {
