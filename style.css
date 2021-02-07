@@ -210,11 +210,13 @@ ul
 .sec6
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-top:100px;
 }
 .sec6 .card
 {
+    margin: 15px 0;
     height: 500px;
     width: 320px;
     align-items: center;
@@ -494,11 +496,23 @@ footer
     {
         margin-top: 25px;
     }
-    .footer{
-        display: none;
+    .footer .container .display
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .nav-link ul 
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer .nav-link a
+    {
+        font-size: 10px;
     }
 }
-@media(max-width:780px)
+@media(max-width:800px)
 {
 
      .container
@@ -572,7 +586,8 @@ footer
     {
         margin-top: 25px;
     }
-    .footer{
-        display: none;
+    .footer .nav-link a
+    {
+        font-size: 18px;
     }
 }
