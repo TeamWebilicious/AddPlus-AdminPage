@@ -517,7 +517,6 @@ footer
 
      .container
     {
-        padding: 0 0;
         align-items: center;
         flex-direction: column;
     }
@@ -535,7 +534,7 @@ footer
     }
     .section .text-area
     {
-        width: 90%;
+        width: 100%;
         padding: 0 5px;
         display: flex;
         flex-direction: column;
@@ -553,7 +552,7 @@ footer
     }
     .section1-img img
     {
-    width: 300px;
+    width: 450px;
     }
     section .design-l,.design-r
     {
