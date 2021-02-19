@@ -241,10 +241,10 @@ ul
     background: #FFE463;
 }
 /* *Sec 7 */
-/* .sec7
+ .sec7
 {
     height: 800px;
-    background-image: url('images/girl.jpg');
+    background: #c4c4c4;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -278,7 +278,7 @@ ul
     position: absolute;
     bottom: 50px;
     left: 100px;
-} */
+} 
 /* *sec 8 */
 /* .sec8
 {
@@ -424,9 +424,6 @@ footer
 /* Mobile Phone */
 @media(max-width:500px)
 {
-    body{
-        overflow-x: 0;
-    }
       .container
     {
         width:95vw;
@@ -495,7 +492,40 @@ footer
     .sec6 .card
     {
         margin-top: 25px;
+    }
+    .sec7
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 500px;
+        background: #c4c4c4;
+    }
+    .sec7 .card
+    {
+        position: relative;
+        right: 8%;
+        width: 100%;
+        height: 300px;
+        width: 350px;
+        transform: none;
+    }
+    .sec7 p
+    {
+        font-size: 18px;
+    }
+    .sec7 .d1
+    {
+        height: 150px;
+        width: 150px;
+        left: 100px;
+    }
+    .sec7 .d2
+    {
+        width: 150px;
+        height: 25px;
     } 
+    /* NOTE  */
     .footer .container .display
     {
         display: flex;
